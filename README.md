@@ -1,0 +1,165 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #088538;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #107a19;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #539937;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .galeria {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .imagem {
+            width: 250px;
+            height: 150px;
+            background-color: #ccc;
+            border-radius: 8px;
+            text-align: center;
+            line-height: 150px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color:  #222;
+            color: white;
+            margin-top:20px;
+        }
+
+    </style>
+
+        
+
+    <header>
+        <h1>Bem-vindo ao AGRO BR</h1>
+        <p>Um site simples criado com HTML e CSS</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Galeria</a>
+        <a href="#">Contato</a>
+    </nav
+    section>
+            <h2>Sobre o Projeto</h2>
+            <p>
+                O projeto Agrinho 2026 tem como objetivo mostrar a importância do equilíbrio entre a produção agrícola e a preservação do meio ambiente. Com o tema “Agro forte, futuro sustentável”, aprendemos que o agronegócio é muito importante para a sociedade, pois produz alimentos e gera empregos, mas também precisa cuidar da natureza. Através do site que estamos desenvolvendo nas aulas de Programação e IA, podemos compartilhar ideias, informações e conscientizar as pessoas sobre práticas mais sustentáveis. Esse projeto também ajuda no aprendizado de tecnologia, criatividade e trabalho em equipe.
+            </p>
+<section>
+            <h2>Serviços</h2>
+
+            <ul>
+                <li>Produção agrícola sustentável</li>
+                <li>Consultoria ambiental rural</li>
+                <li>Irrigação inteligente</li>
+                <li>Tecnologia no campo</li>
+                <li>Venda de produtos agrícolas</li>
+                <li>Planejamento de colheitas</li>
+                <li> Análise de solo</li>
+                <li>Transporte de produção rural</li>
+<li>Agricultura de precisão</li>
+<li>Apoio ao produtor rural</li>
+<li>Desenvolvimento sustentável no agro</li>
+<li>Controle de qualidade agrícola</li>
+<li> Soluções ecológicas para fazendas</li>
+                <li>Educação e conscientização ambiental</li>
+
+
+
+            </ul>
+        
+        </section>
+
+        <section>
+            <h2>Galeria</h2>
+
+            <div class="galeria">
+                <div class="imagem">Imagem 1</div>
+                <div class="imagem">Imagem 2</div>
+                <div class="imagem">Imagem 3</div>
+                <main>
+    
+
+
+
+         <section>
+            <h2>Contato</h2>
+
+            <p>Email: nathan.bilieski.santos@escola.pr.gov.br</p>
+            <p>Telefone: (00) 00000-0000</p>
+
+            <form>
+                <label>Nome:</label><br>
+                <input type="text" placeholder="Digite seu nome"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" placeholder="Digite seu email"><br><br>
+
+                <label>Mensagem:</label><br>
+                <textarea rows="5" cols="40"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido pro NATHAN BILIESKI DOS SANTOS                                                                       
+    </footer>
+
+</body>
+</html>
